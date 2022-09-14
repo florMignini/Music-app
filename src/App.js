@@ -1,11 +1,6 @@
 import { useEffect } from "react";
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { GlobalStyle } from "./globalStyle";
 
 import Navbar from "./components/navbar/Navbar";
