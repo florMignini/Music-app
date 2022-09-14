@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const WelcomeLink = styled.div`
   width: 100%;
   height: 700px;
-  margin-top: 5%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
